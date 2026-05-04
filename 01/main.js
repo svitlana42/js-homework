@@ -1,5 +1,5 @@
-let userAgeValue = 255;
-let userNameNickname = "JavaScript lesson";
+let userAgeValue = 42;
+let userNameNickname = "Svitlana";
 
-userAgeValue = 411;
-userNameNickname = "First lesson";
+userAgeValue = 32;
+userNameNickname = "Vlad";
