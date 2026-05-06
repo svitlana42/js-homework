@@ -4,8 +4,8 @@ let number2 = 5;
 let equally = number1 === number2;
 let greater = number1 > number2;
 
-alert(`Числа дорівнюють один одному? ${equally ? 'так' : 'ні'}`);
-alert(`Перше число більше другого? ${greater ? 'так' : 'ні'}`);
+alert(`Числа дорівнюють один одному? ${equally}`);
+alert(`Перше число більше другого? ${greater}`);
 
 //друге завдання
 let num = Number(prompt("Введіть число"));
@@ -15,7 +15,7 @@ let result = checknum && "Парне" || "Непарне";
 console.log(result);
 
 //третє завдання
-let age = Number(prompt('Введіть вік'));
+let age = Number(prompt('Введіть свій вік'));
 let checkAge = age < 18;
 let message = checkAge && "Доступ заборонено" || "Доступ дозволено";
 
