@@ -45,9 +45,11 @@ else {
 
 //четверте завдання
 let angle = Number(prompt("Введіть величину кута в градусах"));
-let result = angle < 90
-  ? "Гострий кут"
-  : "Тупий кут";
+let result = angle === 90
+  ? "Прямий кут"
+  : angle < 90
+    ? "Гострий кут"
+    : "Тупий кут";
 
 console.log(result);
 
