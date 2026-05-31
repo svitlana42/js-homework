@@ -89,29 +89,27 @@ btn.onclick = function () {
 };
 
 // 5
-let blockContainer = document.createElement("div");
-blockContainer.className = "blockContainer";
-blockContainer.style.marginTop = "15px";
-document.body.append(blockContainer);
+let container = document.createElement("div");
+container.style.marginTop = "15px";
+document.body.append(container);
 
 let btn1 = document.createElement("button");
 btn1.className = "button first";
 btn1.innerText = "Перша кнопка";
 btn1.style.marginRight = "10px";
+container.append(btn1);
 
 let btn2 = document.createElement("button");
 btn2.className = "button second";
 btn2.innerText = "Друга кнопка";
 btn2.style.marginRight = "10px";
+container.append(btn2);
 
 let btn3 = document.createElement("button");
 btn3.className = "button third";
 btn3.innerText = "Третя кнопка";
+container.append(btn3);
 
-blockContainer.append(btn1, btn2, btn3);
-
-blockContainer.onclick = function (event) {
-    if (event.target.tagName === "BUTTON") {
+container.onclick = function (event) {
         alert(`Клік отримала: ${event.target.className}`);
-    }
 };
