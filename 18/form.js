@@ -1,11 +1,18 @@
 window.onload = function () {
     // 1
-    let myColor = document.querySelectorAll('input[name="color"]');
-    myColor.forEach(function (item) {
-        item.addEventListener("change", function () {
-            document.body.style.backgroundColor = this.value;
-        });
-    });
+    let red = document.querySelector("#red");
+    let green = document.querySelector("#green");
+    let blue = document.querySelector("#blue");
+
+    red.onchange = function () {
+        document.body.style.backgroundColor = this.value;
+    };
+    green.onchange = function () {
+        document.body.style.backgroundColor = this.value;
+    };
+    blue.onchange = function () {
+        document.body.style.backgroundColor = this.value;
+    };
 
     // 2
     let reading = document.querySelector("#reading");
@@ -45,7 +52,7 @@ window.onload = function () {
             info.textContent = "Столиця: Берлін. Населення: 83млн.";
         }
         if (country.value === "england") {
-            info.textContent = "Столиця: Лондон. Населення: 58млн.";
+            info.textContent = "Столиця: Лондон. Населення: 56млн.";
         }
     };
 
@@ -94,5 +101,5 @@ window.onload = function () {
         }
         price.textContent = "Ціна: " + sum + " грн.";
     }
-}
+};
 
