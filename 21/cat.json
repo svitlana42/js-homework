@@ -1,0 +1,6 @@
+{
+    "name":"Alisa",
+    "age":9,
+    "toys":["mouse","laser"],
+    "health":{"vaccinated":true,"weight":6}
+}
