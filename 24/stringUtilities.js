@@ -1,14 +1,9 @@
 function upperText(text) {
-    return text.toUpperCase(); 
+    return text.toUpperCase();
 }
 
 function reverseText(text) {
-    let result = "";
-    
-    for (let i = text.length - 1; i >= 0; i--) {
-        result += text[i];
-    }
-    return result;
+    return text.split("").reverse().join("");
 }
 
 export { upperText, reverseText };
