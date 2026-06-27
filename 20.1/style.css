@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --bg-color: white;
 }
@@ -16,4 +17,24 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+=======
+:root {
+    --bg-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+>>>>>>> e4a3a4e2c779064bbf5de385e579de93c796ad23
 }

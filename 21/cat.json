@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
     "name":"Alisa",
     "age":9,
     "toys":["mouse","laser"],
     "health":{"vaccinated":true,"weight":6}
+=======
+{
+    "name":"Alisa",
+    "age":9,
+    "toys":["mouse","laser"],
+    "health":{"vaccinated":true,"weight":6}
+>>>>>>> e4a3a4e2c779064bbf5de385e579de93c796ad23
 }
